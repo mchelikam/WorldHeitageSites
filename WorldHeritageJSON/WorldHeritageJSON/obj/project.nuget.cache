@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fNEc1J1enNrc6A77IyRfBLsuX2CBJ+9sV+bwr5LiKg1u2oxpR3U0Ipg+svV7gzYhh5DCgYKdiw5Kk4tpkjw4bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\manoj\\Documents\\GitHub\\IS7024FinalProject\\WorldHeritageJSON\\WorldHeritageJSON\\WorldHeritageJSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manoj\\.nuget\\packages\\documentformat.openxml\\2.12.3\\documentformat.openxml.2.12.3.nupkg.sha512",
+    "C:\\Users\\manoj\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\manoj\\.nuget\\packages\\newtonsoft.json.schema\\3.0.14\\newtonsoft.json.schema.3.0.14.nupkg.sha512",
+    "C:\\Users\\manoj\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,37 @@
+﻿@page
+@model WorldHeritageJSON.Pages.WorldHeritageSitesModel
+@{
+    ViewData["Title"] = "World Heritage Sites";
+    List<WorldHeritageJSON.Pages.Item> items = (List<WorldHeritageJSON.Pages.Item>)ViewData["Items"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">Unesco Sites</h1>
+    <table>
+        <tr>
+            <th>Name of Unesco</th>
+            <th>Country</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Temperature</th>
+
+
+
+        </tr>
+        @{ foreach (WorldHeritageJSON.Pages.Item item in items)
+                        {
+            <tr>
+                
+                <td>@item.name</td>       
+                <td>@item.country</td>
+                <td>@item.lat</td>
+                <td>@item.lon</td>
+                <td>@item.tem</td>
+                
+                
+
+                
+
+            </tr> } }
+    </table>
+</div>
